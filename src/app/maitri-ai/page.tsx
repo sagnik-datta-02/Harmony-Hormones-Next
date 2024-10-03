@@ -91,7 +91,7 @@ function MaitriPage() {
               fontWeight: 'bold',
             }}
           >
-            Let's talk about your first period experience!
+            Lets talk about your first period experience!
           </Typography>
         </Container>
 
