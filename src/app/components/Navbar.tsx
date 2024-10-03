@@ -40,7 +40,7 @@ const NavBar: React.FC = () => {
       } else if (page === 'Flow AI') {
         router.push('/flow-ai');
       } else if (page === 'Maitri AI') {
-        window.open('#', '_blank');
+        router.push('/maitri-ai');
       }
     }
   };

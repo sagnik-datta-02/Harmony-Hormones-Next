@@ -6,15 +6,15 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Grid from '@mui/material/Grid2';
-
+import { useRouter } from 'next/navigation';
 const HeroSection: React.FC = () => {
-
+  const router = useRouter();
   const handleClick = () => {
-    window.open('/flow-ai', '_blank');
+    router.push('/flow-ai');
   };
 
   const handleClickPage = () => {
-    window.open('/', '_blank');
+    router.push('/maitri-ai');
   };
 
   return (

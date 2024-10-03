@@ -41,9 +41,9 @@ export default function Footer() {
               wordWrap: 'break-word'
             }}>Services</Typography>
             <Typography component="div" style={{ padding: '20px', display: 'flex', flexDirection: 'column', color: '#242424', fontSize: 20, fontFamily: 'Jost, sans-serif', fontWeight: '400', letterSpacing: 0.40, wordWrap: 'break-word' }}>
-              <Link href='#' target="_blank" underline="hover" >Mensa AI</Link>
-              <Link href='#' target="_blank" underline="hover" >Maitri AI</Link>
-              <Link  href='#' underline="hover" >Menstrupedia</Link>
+              <Link href='/flow-ai' underline="hover" >Flow AI</Link>
+              <Link href='/maitri-ai'  underline="hover" >Maitri AI</Link>
+           
 
             </Typography>
           </Grid>
