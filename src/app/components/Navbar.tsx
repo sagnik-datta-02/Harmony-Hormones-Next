@@ -14,7 +14,7 @@ import { Menu } from '@mui/material';
 import { useRouter } from 'next/navigation';
 import { MouseEvent, useState } from 'react';
 
-const pages = ['Home', 'First Periods', 'Maitri AI', 'Flow AI', 'Mensa AI'];
+const pages = ['Home', 'First Periods','Flow AI', 'Maitri AI'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 const NavBar: React.FC = () => {
@@ -39,8 +39,6 @@ const NavBar: React.FC = () => {
         router.push('/first-periods');
       } else if (page === 'Flow AI') {
         router.push('/flow-ai');
-      } else if (page === 'Mensa AI') {
-        window.open('#', '_blank');
       } else if (page === 'Maitri AI') {
         window.open('#', '_blank');
       }
@@ -66,7 +64,7 @@ const NavBar: React.FC = () => {
               fontFamily: "Pacifico, cursive",
               fontWeight: 400,
               letterSpacing: '.3rem',
-              color: 'Secondary',
+              color: 'black',
               textDecoration: 'none',
               padding: 1.5,
             }}

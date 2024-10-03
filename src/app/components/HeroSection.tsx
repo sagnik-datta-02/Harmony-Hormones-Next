@@ -10,7 +10,7 @@ import Grid from '@mui/material/Grid2';
 const HeroSection: React.FC = () => {
 
   const handleClick = () => {
-    window.open('/', '_blank');
+    window.open('/flow-ai', '_blank');
   };
 
   const handleClickPage = () => {
@@ -83,7 +83,7 @@ const HeroSection: React.FC = () => {
               }}
               onClick={handleClick}
             >
-              Maitri AI
+              Flow AI
             </Button>
             <Button
               variant="outlined"
@@ -105,7 +105,7 @@ const HeroSection: React.FC = () => {
               }}
               onClick={handleClickPage}
             >
-              Mensa AI
+              Maitri AI
             </Button>
           </Grid>
           <Grid size={{ xs:12 , sm:6 , md:4}} sx={{ padding: 1 }}>
