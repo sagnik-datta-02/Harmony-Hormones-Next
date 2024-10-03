@@ -123,7 +123,7 @@ const NavBar: React.FC = () => {
               flexGrow: 1,
               fontFamily: "Pacifico, cursive",
               letterSpacing: '.1rem',
-              color: 'Secondary',
+              color: 'black',
               textDecoration: 'none',
               padding: 1.5,
             }}
