@@ -203,7 +203,7 @@ const FirstPeriodDesc : React.FC  = () => {
                         wordWrap: 'break-word',
                         textAlign: "center",
                     }}>
-                        <img src="/assets/FirstPeriodImg.jpg" alt="FirstPeriodImage" style={{
+                        <img src="/images/FirstPeriodImg.jpg" alt="FirstPeriodImage" style={{
                     maxWidth: '100%',
                     maxHeight: "400px",
                     display: 'block',

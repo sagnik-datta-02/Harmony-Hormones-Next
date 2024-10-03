@@ -16,13 +16,13 @@
     "@mui/material": "^6.1.2",
     "@mui/material-nextjs": "^6.1.2",
     "next": "14.2.14",
-    "react": "^18",
-    "react-dom": "^18"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
-    "@types/react-dom": "^18",
+    "@types/react-dom": "^18.3.0",
     "eslint": "^8",
     "eslint-config-next": "14.2.14",
     "postcss": "^8",

@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from '../app/components/Navbar'
-
+import HeroSection from './components/HeroSection';
 
 const LandingPage: React.FC = () => {
   return (
@@ -15,7 +15,7 @@ const LandingPage: React.FC = () => {
       }}
     >
       <NavBar />
-    
+    <HeroSection/>
     </div>
   );
 };
