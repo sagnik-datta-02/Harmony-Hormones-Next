@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from '../app/components/Navbar'
 import HeroSection from './components/HeroSection';
-
+import Footer from './components/Footer';
 const LandingPage: React.FC = () => {
   return (
     <div
@@ -16,6 +16,7 @@ const LandingPage: React.FC = () => {
     >
       <NavBar />
     <HeroSection/>
+    <Footer></Footer>
     </div>
   );
 };
