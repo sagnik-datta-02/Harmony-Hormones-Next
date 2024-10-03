@@ -5,6 +5,8 @@ import { AppRouterCacheProvider } from '@mui/material-nextjs/v14-appRouter';
 import { Roboto } from 'next/font/google';
 import { ThemeProvider } from '@mui/material/styles';
 import theme from '../theme';
+import { CopilotKit } from "@copilotkit/react-core";
+import "@copilotkit/react-ui/styles.css";
 
 const roboto = Roboto({
   weight: ['300', '400', '500', '700'],
@@ -33,14 +35,17 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const COPILOT_CLOUD_PUBLIC_API_KEY = process.env.NEXT_PUBLIC_COPILOT_CLOUD_PUBLIC_API_KEY;
   return (
     <html lang="en">
      <body className={roboto.variable}>
+     <CopilotKit publicApiKey={COPILOT_CLOUD_PUBLIC_API_KEY}>
           <AppRouterCacheProvider>
            <ThemeProvider theme={theme}>
               {children}
          </ThemeProvider>
         </AppRouterCacheProvider>
+        </CopilotKit>
       </body>
     </html>
   );

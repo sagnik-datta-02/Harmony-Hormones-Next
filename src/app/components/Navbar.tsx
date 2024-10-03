@@ -13,7 +13,7 @@ import { Menu } from '@mui/material';
 import { useRouter } from 'next/navigation';
 import { MouseEvent, useState } from 'react';
 
-const pages = ['Home', 'First Periods', 'Maitri AI', 'MenstruPedia', 'Mensa AI'];
+const pages = ['Home', 'First Periods', 'Maitri AI', 'Flow AI', 'Mensa AI'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 const NavBar: React.FC = () => {
@@ -36,8 +36,8 @@ const NavBar: React.FC = () => {
         router.push('/');
       } else if (page === 'First Periods') {
         router.push('/first-periods');
-      } else if (page === 'MenstruPedia') {
-        router.push('#');
+      } else if (page === 'Flow AI') {
+        router.push('/flow-ai');
       } else if (page === 'Mensa AI') {
         window.open('#', '_blank');
       } else if (page === 'Maitri AI') {
