@@ -1,4 +1,5 @@
 "use client"
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import React from 'react';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
@@ -43,7 +44,7 @@ const HeroSection: React.FC = () => {
             >
               Harmony Hormones
               <br />
-              #It's Just Period
+              #Its Just Period
               <br />
             </Typography>
             <Typography

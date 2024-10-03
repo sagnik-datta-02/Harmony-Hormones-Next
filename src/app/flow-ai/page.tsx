@@ -1,4 +1,5 @@
 "use client";
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { CopilotSidebar } from "@copilotkit/react-ui";
  import { TasksProvider} from "../lib/hooks/use-tasks";
  import { TasksList } from "../components/PeriodTrackerList";
@@ -6,7 +7,6 @@ import { CopilotSidebar } from "@copilotkit/react-ui";
 import "@copilotkit/react-ui/styles.css";
 import NavBar from "../components/Navbar";
 import Footer from "../components/Footer";
-import { useCopilotChatSuggestions } from "@copilotkit/react-ui";
 export default function FlowAI() {
     const COPILOT_CLOUD_PUBLIC_API_KEY = process.env.NEXT_PUBLIC_COPILOT_CLOUD_PUBLIC_API_KEY;
   return (
