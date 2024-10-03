@@ -60,7 +60,7 @@ const HeroSection: React.FC = () => {
                 alignContent: 'center',
               }}
             >
-              Get ready to empower your well-being with Harmony Hormones—a vibrant global haven for women's health! Dive into enlightening articles in Menstrupedia, get your personalized Care plan from Maitri AI based on your Menstrual Phase, and have a chat with Mensa, our witty AI companion breaking taboos, gaining knowledge, and becoming part of a lively community dedicated to your holistic well-being. Harmony Hormones: Where guidance meets excitement, support meets fun, and well-being is the ultimate adventure! Your guide to a harmonious and empowered life starts here. 🌺🚀
+              Get ready to empower your well-being with Harmony Hormones—a vibrant global haven for women&apos;s health! Dive into enlightening articles in Menstrupedia, get your personalized Care plan from Maitri AI based on your Menstrual Phase, and have a chat with Mensa, our witty AI companion breaking taboos, gaining knowledge, and becoming part of a lively community dedicated to your holistic well-being. Harmony Hormones: Where guidance meets excitement, support meets fun, and well-being is the ultimate adventure! Your guide to a harmonious and empowered life starts here. 🌺🚀
             </Typography>
 
             <Button
