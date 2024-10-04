@@ -3,11 +3,13 @@
 
 **Harmony Hormones** is a revolutionary platform dedicated to women’s health and well-being. With **Flow AI**, get personalized care and period tracking, and let **Maitri AI** guide you through your menstrual health journey—all while being part of a supportive and vibrant community. Let’s break taboos, gain knowledge, and empower one another!
 
+![image](https://github.com/user-attachments/assets/bfa8790c-66c0-4423-93b4-4088e5955b5b)
+
 ---
 
 ## 🚀 Key Features
 
-### 🗓️ **Flow AI Period Calendar**
+### 1️⃣ 🗓️ **Flow AI Period Calendar**
 
 Manage your menstrual health like never before! **Flow AI** is an intuitive calendar that helps you track your periods, ovulation, and fertile windows while offering personalized care routines. It simplifies menstrual tracking by tailoring care plans based on:
 
@@ -22,9 +24,7 @@ Every menstrual phase gets its own dedicated task, and with **Copilot Kit’s Co
 
 Your privacy is paramount: all data is stored securely in **localStorage**, meaning it never leaves your device.
 
----
-
-### 🧠 **Maitri AI: Your Menstrual Health Guru**
+### 2️⃣ 🧠 **Maitri AI: Your Menstrual Health Guru**
 
 Meet **Maitri AI**—your trusted friend and expert in menstrual health, powered by **CopilotChat**. Maitri is here to answer all your questions, whether it’s about:
 
@@ -35,9 +35,7 @@ Meet **Maitri AI**—your trusted friend and expert in menstrual health, powered
 
 Maitri is powered by **GPT-4**, offering personalized and professional advice tailored to your needs. No question is too big or small—whether you're navigating your first period or dealing with unusual symptoms, Maitri is here to support you with warmth and expertise.
 
----
-
-### 📚 **First Periods Guide**
+### 3️⃣ 📚 **First Periods Guide**
 
 Navigating your first period can be challenging, but we’ve got you covered! **Harmony Hormones** includes a special page for first-time menstruators, featuring images, videos, and easy-to-understand guidance powered by **CopilotPopup**.
 
@@ -50,8 +48,8 @@ Get answers to all your first-period questions in a fun, engaging way, and join 
 **Harmony Hormones** is powered by cutting-edge technologies to ensure the best user experience:
 - **Next.js**: React-based framework for building interactive UIs
 - **Tailwind CSS**, **MUI**, and **Radix UI**: For responsive and beautiful design
-- **Copilot Kit**: For intelligent AI interactions (e.g., task management and chat)
-- **GPT-4**: Powers the intelligence behind Maitri AI and Flow AI
+- **[Copilot Kit](https://www.copilotkit.ai/)** : For intelligent AI interactions (e.g., task management and chat)
+- **GPT-4**: Powers the [Copilot Kit](https://www.copilotkit.ai/) behind Maitri AI and Flow AI
 - **LocalStorage**: Secure storage for personal data
 - **Vercel Analytics**: For monitoring app performance
 - **Copilot Cloud**: Hosting the Copilot Kit runtime
@@ -101,5 +99,3 @@ This project is licensed under the **MIT License**.
 Harmony Hormones is more than just a platform—it’s a community. Empower yourself and others by joining us in this exciting journey toward better health, self-care, and empowerment. Start today and discover how fun well-being can be! 🌺🚀
 
 ---
-
-This README provides a clear and visually attractive overview of the project, guiding users on how to use it, what it offers, and how they can contribute. Let me know if you need further adjustments!
