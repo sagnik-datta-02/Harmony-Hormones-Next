@@ -1,5 +1,5 @@
 import { useCopilotAction, useCopilotReadable } from "@copilotkit/react-core";
-import { createContext, useContext, useState, ReactNode } from "react";
+import { createContext, useContext, useState, useEffect, ReactNode } from "react";
 import { defaultTasks } from "../default-tasks";
 import { Task, TaskStatus } from "../tasks.types";
 
@@ -7,7 +7,7 @@ let nextId = defaultTasks.length + 1;
 
 type TasksContextType = {
   tasks: Task[];
-  addTask: (title: string,details: string) => void;
+  addTask: (title: string, details: string) => void;
   setTaskStatus: (id: number, status: TaskStatus) => void;
   deleteTask: (id: number) => void;
 };
@@ -15,7 +15,15 @@ type TasksContextType = {
 const TasksContext = createContext<TasksContextType | undefined>(undefined);
 
 export const TasksProvider = ({ children }: { children: ReactNode }) => {
-  const [tasks, setTasks] = useState<Task[]>(defaultTasks);
+  const [tasks, setTasks] = useState<Task[]>(() => {
+    const savedTasks = localStorage.getItem('tasks');
+    return savedTasks ? JSON.parse(savedTasks) : defaultTasks;
+  });
+
+  // Save tasks to local storage whenever they change
+  useEffect(() => {
+    localStorage.setItem('tasks', JSON.stringify(tasks));
+  }, [tasks]);
 
   useCopilotReadable({
     description: "The state of the period calendar tasks",
@@ -28,7 +36,7 @@ export const TasksProvider = ({ children }: { children: ReactNode }) => {
 Last period date
 Cycle length
 Presence of conditions such as PCOS/PCOD
-Number of days of bleeding . Title will include the important dates for tracking periods, ovulation, fertile windows,  and  details will include personalized care planner for each phase. Delete all the previous tasks once starting to add tasks. Each phase should be individual task. Make the language easier and interactive. `,
+Number of days of bleeding. Title will include the important dates for tracking periods, ovulation, fertile windows, and details will include personalized care planner for each phase. Delete all the previous tasks once starting to add tasks. Each phase should be individual task. Make the language easier and interactive.`,
     parameters: [
       {
         name: "title",
@@ -87,8 +95,8 @@ Number of days of bleeding . Title will include the important dates for tracking
     }
   });
 
-  const addTask = (title: string ,details: string) => {
-    setTasks([...tasks, { id: nextId++, title,details, status: TaskStatus.todo }]);
+  const addTask = (title: string, details: string) => {
+    setTasks([...tasks, { id: nextId++, title, details, status: TaskStatus.todo }]);
   };
 
   const setTaskStatus = (id: number, status: TaskStatus) => {
@@ -102,7 +110,7 @@ Number of days of bleeding . Title will include the important dates for tracking
   const deleteTask = (id: number) => {
     setTasks(tasks.filter((task) => task.id !== id));
   };
-  
+
   return (
     <TasksContext.Provider value={{ tasks, addTask, setTaskStatus, deleteTask }}>
       {children}

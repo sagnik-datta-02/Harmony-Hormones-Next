@@ -91,7 +91,7 @@ function MaitriPage() {
               fontWeight: 'bold',
             }}
           >
-            Lets talk about your first period experience!
+            Whether your first period or an unusual menstrual experience! Lets talk and break the #taboo !
           </Typography>
         </Container>
 

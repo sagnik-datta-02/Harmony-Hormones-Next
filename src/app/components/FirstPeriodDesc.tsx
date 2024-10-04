@@ -183,7 +183,14 @@ const FirstPeriodDesc: React.FC = () => {
                     }}>
                     Hey there, mood booster! Feeling a little crampy or moody during your period? That&apos;s totally normal – your body is going through some changes, after all! To help ease those cramps, you might want to try a warm heating pad or a cozy blanket. And if you&apos;re feeling a little down, don&apos;t hesitate to chat with a friend or your family. They&apos;ll be there to support you through your period adventure!
                 </Typography>
+                <img src="/images/FirstPeriodImg.jpg" alt="FirstPeriodImage" style={{
+                    maxWidth: '100%',
+                    maxHeight: "400px",
+                    display: 'block',
+                    marginLeft: 'auto',
+                    marginRight: 'auto'
 
+                }} />
                 <Typography variant="h4"
                     style={{
                         margin: '10px',
