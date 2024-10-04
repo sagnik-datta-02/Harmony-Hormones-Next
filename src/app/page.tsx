@@ -3,6 +3,7 @@ import NavBar from '../app/components/Navbar'
 import HeroSection from './components/HeroSection';
 import Footer from './components/Footer';
 import { CopilotPopup } from "@copilotkit/react-ui";
+import Features from './components/FeatureSection';
 const LandingPage: React.FC = () => {
   return (
     <div
@@ -17,6 +18,7 @@ const LandingPage: React.FC = () => {
     >
       <NavBar />
     <HeroSection/>
+    <Features/>
     <Footer></Footer>
     <CopilotPopup
         instructions={`Your name is Maitri. You are a medical practitioner and specialize on topics
