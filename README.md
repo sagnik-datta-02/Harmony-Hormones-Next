@@ -26,18 +26,18 @@ Your privacy is paramount: all data is stored securely in **localStorage**, mean
 
 ### 2️⃣ 🧠 **Maitri AI: Your Menstrual Health Guru**
 
-Meet **Maitri AI**—your trusted friend and expert in menstrual health, powered by **CopilotChat**. Maitri is here to answer all your questions, whether it’s about:
+Meet **Maitri AI**—your trusted friend and expert in menstrual health, powered by **Copilot Kit’s CopilotChat**. Maitri is here to answer all your questions, whether it’s about:
 
 - Menstrual cycles and period symptoms
 - Diseases like PCOS/PCOD
 - Reliable solutions for common menstrual issues
 - Busting myths around menstrual health
 
-Maitri is powered by **GPT-4**, offering personalized and professional advice tailored to your needs. No question is too big or small—whether you're navigating your first period or dealing with unusual symptoms, Maitri is here to support you with warmth and expertise.
+Maitri is powered by **CopilotChat**, offering personalized and professional advice tailored to your needs. No question is too big or small—whether you're navigating your first period or dealing with unusual symptoms, Maitri is here to support you with warmth and expertise.
 
 ### 3️⃣ 📚 **First Periods Guide**
 
-Navigating your first period can be challenging, but we’ve got you covered! **Harmony Hormones** includes a special page for first-time menstruators, featuring images, videos, and easy-to-understand guidance powered by **CopilotPopup**.
+Navigating your first period can be challenging, but we’ve got you covered! **Harmony Hormones** includes a special page for first-time menstruators, featuring images, videos, and easy-to-understand guidance powered by **Copilot Kit’s CopilotPopup**.
 
 Get answers to all your first-period questions in a fun, engaging way, and join a supportive community that’s here to help you every step of the way!
 
