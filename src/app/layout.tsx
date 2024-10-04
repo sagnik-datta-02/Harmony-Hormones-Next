@@ -6,7 +6,7 @@ import { ThemeProvider } from '@mui/material/styles';
 import theme from '../theme';
 import { CopilotKit } from "@copilotkit/react-core";
 import "@copilotkit/react-ui/styles.css";
-
+import { Analytics } from "@vercel/analytics/react"
 const roboto = Roboto({
   weight: ['300', '400', '500', '700'],
   subsets: ['latin'],
@@ -29,6 +29,7 @@ export default function RootLayout({
     <html lang="en">
      <body className={roboto.variable}>
      <CopilotKit publicApiKey={COPILOT_CLOUD_PUBLIC_API_KEY}>
+      <Analytics/>
           <AppRouterCacheProvider>
            <ThemeProvider theme={theme}>
               {children}
