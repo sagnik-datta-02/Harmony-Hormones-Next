@@ -3,7 +3,9 @@
 
 **Harmony Hormones** is a revolutionary platform dedicated to women’s health and well-being. With **Flow AI**, get personalized care and period tracking, and let **Maitri AI** guide you through your menstrual health journey—all while being part of a supportive and vibrant community. Let’s break taboos, gain knowledge, and empower one another!
 
-![image](https://github.com/user-attachments/assets/bfa8790c-66c0-4423-93b4-4088e5955b5b)
+Click below to view the **YT Demo Video** ▶️ : 
+
+[![Watch the video](https://github.com/user-attachments/assets/bfa8790c-66c0-4423-93b4-4088e5955b5b)](https://youtu.be/KD97WRNAKV0)
 
 ---
 
@@ -59,6 +61,8 @@ Get answers to all your first-period questions in a fun, engaging way, and join 
 ## 🌐 Live Demo
 
 Experience **Harmony Hormones** live at [Harmony Hormones](https://harmonyhormones.vercel.app)
+
+YouTube Demo Video : [https://youtu.be/KD97WRNAKV0](https://youtu.be/KD97WRNAKV0)
 
 ---
 
