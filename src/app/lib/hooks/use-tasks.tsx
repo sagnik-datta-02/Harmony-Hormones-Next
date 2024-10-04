@@ -16,8 +16,11 @@ const TasksContext = createContext<TasksContextType | undefined>(undefined);
 
 export const TasksProvider = ({ children }: { children: ReactNode }) => {
   const [tasks, setTasks] = useState<Task[]>(() => {
-    const savedTasks = localStorage.getItem('tasks');
-    return savedTasks ? JSON.parse(savedTasks) : defaultTasks;
+    if (typeof window !== "undefined") {
+      const savedTasks = localStorage.getItem('tasks');
+      return savedTasks ? JSON.parse(savedTasks) : defaultTasks;
+    } 
+    return defaultTasks; 
   });
 
   // Save tasks to local storage whenever they change
